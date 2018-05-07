@@ -1,0 +1,1693 @@
+[ 2017-05-26T08:00:39+08:00 ] 49.67.209.133 /user/apply/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T08:00:39+08:00 ] 49.67.209.133 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T08:30:28+08:00 ] 180.153.236.11 /user/help/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: company_info F:\wwwroot\app\runtime\Cache\User\fcecefe5c6f54a456cc13ae972bdc10d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T12:13:38+08:00 ] 42.120.160.76 /user/help/news_detail/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_news` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: company_info F:\wwwroot\app\runtime\Cache\User\a814fe0b22649012eb05a336816af9e8.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T14:13:40+08:00 ] 42.120.161.76 /user/help/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: company_info F:\wwwroot\app\runtime\Cache\User\fcecefe5c6f54a456cc13ae972bdc10d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T16:33:05+08:00 ] 157.55.39.82 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T16:33:06+08:00 ] 157.55.39.82 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T16:33:41+08:00 ] 157.55.39.93 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:11+08:00 ] 119.250.149.248 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:11+08:00 ] 119.250.149.248 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-26T17:21:18+08:00 ] 119.250.149.248 /user/login/check_verify?code=V8UM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:18+08:00 ] 119.250.149.248 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = '123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 327 [ RunTime:0.0010s ]
+SQL: UPDATE `wd_member` SET `last_login`='1495790478',`last_ip`='119.250.149.248' WHERE `id` = 327 [ RunTime:0.0010s ]
+
+[ 2017-05-26T17:21:18+08:00 ] 119.250.149.248 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 363 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 1 AND `uid` = 327 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 2 AND `uid` = 327 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 363 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: f_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 138 行.
+NOTIC: [8] Undefined index: c_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:20+08:00 ] 119.250.149.248 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `wd_company` WHERE `id` = 363 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_hall` WHERE `hall_type` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:21+08:00 ] 119.250.149.248 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:21:22+08:00 ] 119.250.149.248 /user/booth/select/id/6/area/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`booth_num`,`status`,`area`,`width`,`height` FROM `wd_booth` WHERE `hall_area` = 2 AND `hid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT MAX(area) AS tp_max FROM `wd_booth` WHERE `hall_area` = 2 AND `hid` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:25+08:00 ] 119.250.149.248 /user/booth/order/dHlwZS8xL2lkLzEzNDg=.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0550s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 F:\wwwroot\app\core\Library\Com\Service.class.php 第 128 行.
+NOTIC: [8] Undefined offset: 5 F:\wwwroot\app\core\Library\Com\Service.class.php 第 128 行.
+SQL: SELECT * FROM `wd_booth` WHERE `uid` = 327 AND `id` = 1348 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_booth` WHERE `id` = 1348 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_reserve` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `wd_reserve` WHERE `uid` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `hall_num` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `bid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:53+08:00 ] 119.250.149.248 /user/booth/select/id/6/area/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`booth_num`,`status`,`area`,`width`,`height` FROM `wd_booth` WHERE `hall_area` = 2 AND `hid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT MAX(area) AS tp_max FROM `wd_booth` WHERE `hall_area` = 2 AND `hid` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:21:55+08:00 ] 119.250.149.248 /user/booth/order/dHlwZS8xL2lkLzEzNDg=.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='327' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0140s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 4 F:\wwwroot\app\core\Library\Com\Service.class.php 第 128 行.
+NOTIC: [8] Undefined offset: 5 F:\wwwroot\app\core\Library\Com\Service.class.php 第 128 行.
+SQL: SELECT * FROM `wd_booth` WHERE `uid` = 327 AND `id` = 1348 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_booth` WHERE `id` = 1348 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_reserve` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `wd_reserve` WHERE `uid` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `hall_num` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `bid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:28+08:00 ] 119.250.149.248 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:28+08:00 ] 119.250.149.248 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:29+08:00 ] 119.250.149.248 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:38+08:00 ] 180.153.206.18 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:38+08:00 ] 180.153.81.203 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:25:40+08:00 ] 119.250.149.248 /user/login/check_verify?code=kwkh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:25:41+08:00 ] 119.250.149.248 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'nihaoma' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `last_login`='1495790741',`last_ip`='119.250.149.248' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-05-26T17:25:42+08:00 ] 119.250.149.248 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 1 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 2 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: f_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 138 行.
+NOTIC: [8] Undefined index: c_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:25:49+08:00 ] 101.226.51.230 /user/login/check_verify?code=kwkh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:27:03+08:00 ] 119.250.149.248 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 1 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 2 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: f_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 138 行.
+NOTIC: [8] Undefined index: c_area_code F:\wwwroot\app\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:27:10+08:00 ] 119.250.149.248 /user/account/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0090s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:27:11+08:00 ] 119.250.149.248 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0040s ]
+SQL: SELECT `type` FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_hall` WHERE `hall_type` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:27:19+08:00 ] 180.153.160.24 /user/account/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:27:19+08:00 ] 180.153.160.24 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-26T17:30:15+08:00 ] 119.250.149.248 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0130s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0130s ]
+SQL: SELECT `type` FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wd_hall` WHERE `hall_type` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:30:25+08:00 ] 119.250.149.248 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0040s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:30:35+08:00 ] 101.226.33.220 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:30:35+08:00 ] 101.226.33.220 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:50:12+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0040s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:50:14+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:50:17+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:50:26+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0120s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:54:32+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:58:51+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:59:00+08:00 ] 180.153.206.18 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T17:59:00+08:00 ] 180.153.206.18 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:59:09+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:59:19+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0040s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T17:59:44+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0150s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T18:00:04+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T18:00:16+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0060s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T18:00:46+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T18:00:56+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T18:01:08+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T18:01:33+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0040s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T18:02:09+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0030s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T18:02:18+08:00 ] 119.250.149.247 /user/booth/select/id/6/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1346' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0020s ]
+SQL: SELECT `area` FROM `wd_hall` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T18:07:42+08:00 ] 216.244.66.248 /user/reg/step/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:06+08:00 ] 62.210.101.101 /User/Booth/select/id/6/area/1/flag/8C01.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-26T21:03:08+08:00 ] 62.210.101.101 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:10+08:00 ] 62.210.101.101 /User/Booth/select/id/6/area/2/flag/8D06.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:11+08:00 ] 62.210.101.101 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T21:03:13+08:00 ] 62.210.101.101 /User/Booth/select/id/6/area/3/flag/8E06.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:15+08:00 ] 62.210.101.101 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:16+08:00 ] 62.210.101.101 /User/Booth/select/id/6/area/4/flag/8856.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T21:03:18+08:00 ] 62.210.101.101 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T22:14:35+08:00 ] 40.77.167.145 /user/reg/step/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0110s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,1209 @@
+[ 2017-05-23T07:59:29+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T07:59:30+08:00 ] 121.23.80.96 /manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T07:59:35+08:00 ] 121.23.80.96 /manager/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wd_member` SET `last_login`='1495497575',`last_ip`='121.23.80.96' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-05-23T07:59:36+08:00 ] 121.23.80.96 /manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] Non-static method Sendcloud\Stats::get_stats() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Missing argument 3 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [2] Missing argument 4 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [8] Undefined variable: option_params F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: deliveredNum F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_company` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_Sum FROM `wd_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T07:59:39+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:00:00+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:00:01+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:00:04+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:00:34+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:00:41+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:02:23+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:02:24+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:02:24+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:10:17+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:10:23+08:00 ] 121.23.80.96 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+
+[ 2017-05-23T08:21:43+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member_model F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 23 行.
+
+[ 2017-05-23T08:21:44+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member_model F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 23 行.
+
+[ 2017-05-23T08:22:05+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0400s ]
+NOTIC: [8] Undefined variable: list F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:22:24+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:22:26+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: list F:\wwwroot\app\app\Manager\Controller\UserController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:23:13+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:23:14+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:23:30+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:23:31+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:23:37+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 1 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+
+[ 2017-05-23T08:24:25+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 0 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+
+[ 2017-05-23T08:24:30+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_member` WHERE `status` = 0 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+NOTIC: [8] Undefined index: type F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 306 行.
+NOTIC: [8] Undefined index:  F:\wwwroot\app\app\Common\Common\function.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:27:19+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:29:49+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:29:53+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Company.rti1me' in 'field list'
+
+[ 2017-05-23T08:29:56+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:30:26+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:30:38+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:30:39+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:31:28+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0020s ]
+ERR: Think\Controller:list方法不存在！
+
+[ 2017-05-23T08:31:34+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:31:39+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wwwroot\app\core\Common\functions.php:850) F:\wwwroot\app\core\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wwwroot\app\core\Common\functions.php:850) F:\wwwroot\app\core\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wwwroot\app\core\Common\functions.php:850) F:\wwwroot\app\core\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:31:44+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+
+[ 2017-05-23T08:31:56+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id ASC LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:32:07+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:32:08+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-23T08:33:12+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:33:13+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:33:14+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:33:37+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:33:41+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T08:33:44+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:33:50+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T08:33:57+08:00 ] 121.23.80.97 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T11:07:08+08:00 ] 180.153.214.178 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+

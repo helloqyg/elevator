@@ -1,0 +1,1414 @@
+[ 2017-03-18T08:07:27+08:00 ] 121.23.81.27 /manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:07:29+08:00 ] 121.23.81.27 /manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-18T08:07:34+08:00 ] 121.23.81.27 /manager/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `last_login`='1489795654',`last_ip`='121.23.81.27' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-18T08:07:35+08:00 ] 121.23.81.27 /manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] Non-static method Sendcloud\Stats::get_stats() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Missing argument 3 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [2] Missing argument 4 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [8] Undefined variable: option_params F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_company` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_Sum FROM `wd_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:07:39+08:00 ] 121.23.81.27 /manager/invoice/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT h.hall_num,b.booth_num,b.area,b.hall_area,p.* FROM wd_pay p left join wd_booth as b on b.id=p.pid left join wd_hall as h on h.id=b.hid  ORDER BY p.status asc,p.id desc  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 227 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0040s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('227')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 225 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('225')  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\57cc54ec4459d61887fd9ff024069f90.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:08:02+08:00 ] 121.23.81.27 /manager/chart/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_apply` ORDER BY status asc ,id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 303 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 205 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 138 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 193 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 280 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 292 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 270 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 286 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 288 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 282 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 223 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 257 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 241 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 164 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 208 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 157 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 228 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 196 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 188 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 186 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 166 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 160 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 128 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 168 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 156 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 140 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 145 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 143 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 142 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 141 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 139 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\f4b99545379362007cca900104454be0.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-18T08:08:05+08:00 ] 121.23.81.27 /manager/chart/ashow/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_apply` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:08:11+08:00 ] 121.23.81.27 /manager/invoice/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT h.hall_num,b.booth_num,b.area,b.hall_area,p.* FROM wd_pay p left join wd_booth as b on b.id=p.pid left join wd_hall as h on h.id=b.hid  ORDER BY p.status asc,p.id desc  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0040s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('227')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 225 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('225')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\57cc54ec4459d61887fd9ff024069f90.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:08:13+08:00 ] 121.23.81.27 /manager/invoice/ashow/id/230.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `id` = 230 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:08:16+08:00 ] 121.23.81.27 /manager/invoice/ashow/id/230.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `id` = 230 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SELECT `out_trade_no`,`price` FROM `wd_order` WHERE `bid` = '225,' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 225 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT `f_email` FROM `wd_company` WHERE `id` = 363 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+NOTIC: [8192] Non-static method Sendcloud\Send::send_template() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 137 行.
+NOTIC: [8192] Non-static method Sendcloud\Send::send_template() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 138 行.
+SQL: UPDATE `wd_pay` SET `status`='1' WHERE `id` = 230 [ RunTime:0.0000s ]
+SQL: SELECT `pid`,`uid` FROM `wd_pay` WHERE `id` = 230 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_order` SET `status`='4' WHERE `uid` = 327 AND `bid` = '225,' [ RunTime:0.0020s ]
+
+[ 2017-03-18T08:08:19+08:00 ] 121.23.81.27 /manager/invoice/ashow/id/231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_pay` WHERE `id` = 231 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:08:21+08:00 ] 121.23.81.27 /manager/invoice/ashow/id/231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_pay` WHERE `id` = 231 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SELECT `out_trade_no`,`price` FROM `wd_order` WHERE `bid` = '227,' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT `f_email` FROM `wd_company` WHERE `id` = 363 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0010s ]
+NOTIC: [8192] Non-static method Sendcloud\Send::send_template() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 137 行.
+NOTIC: [8192] Non-static method Sendcloud\Send::send_template() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 138 行.
+SQL: UPDATE `wd_pay` SET `status`='1' WHERE `id` = 231 [ RunTime:0.0000s ]
+SQL: SELECT `pid`,`uid` FROM `wd_pay` WHERE `id` = 231 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_order` SET `status`='4' WHERE `uid` = 327 AND `bid` = '227,' [ RunTime:0.0020s ]
+
+[ 2017-03-18T08:08:21+08:00 ] 121.23.81.27 /manager/invoice/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0040s ]
+SQL: SELECT h.hall_num,b.booth_num,b.area,b.hall_area,p.* FROM wd_pay p left join wd_booth as b on b.id=p.pid left join wd_hall as h on h.id=b.hid  ORDER BY p.status asc,p.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 227 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('227')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 225 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('225')  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\57cc54ec4459d61887fd9ff024069f90.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-18T08:08:48+08:00 ] 121.23.81.27 /manager/invoice/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Manager\Controller\InvoiceController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wwwroot\app\app\Manager\Controller\InvoiceController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0030s ]
+SQL: SELECT h.hall_num,b.booth_num,b.area,b.hall_area,p.* FROM wd_pay p left join wd_booth as b on b.id=p.pid left join wd_hall as h on h.id=b.hid  ORDER BY p.status asc,p.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('227')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` = 225 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_name` FROM `wd_ad_goods` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_ad_address` WHERE `ar_id` IN ('225')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\57cc54ec4459d61887fd9ff024069f90.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:08:51+08:00 ] 121.23.81.27 /manager/chart/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_apply` ORDER BY status asc ,id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 303 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 205 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 138 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 193 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 280 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 292 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 270 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 286 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 288 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 282 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 223 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 257 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 268 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 241 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 164 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 208 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 157 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 228 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 196 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 188 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 186 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 166 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 160 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 128 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 168 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 156 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 140 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 145 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 143 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 147 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 142 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 141 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 139 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\f4b99545379362007cca900104454be0.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:08:54+08:00 ] 121.23.81.27 /manager/chart/ashow/id/103.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_apply` WHERE `id` = 103 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-18T08:08:58+08:00 ] 121.23.81.27 /manager/chart/ashow/id/103.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0030s ]
+SQL: UPDATE `wd_apply` SET `status`='2' WHERE `id` = 103 [ RunTime:0.0010s ]
+SQL: SELECT `order_id` FROM `wd_apply` WHERE `id` = 103 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: UPDATE `wd_order` SET `contract`='4' WHERE `id` = 518 [ RunTime:0.0010s ]
+
+[ 2017-03-18T08:08:59+08:00 ] 121.23.81.27 /manager/chart/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_apply` ORDER BY status asc ,id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 303 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 315 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 205 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 138 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 193 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 280 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 292 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 270 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 286 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 288 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 282 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 223 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 257 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 268 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 241 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 164 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 208 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 157 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 227 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 228 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 196 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 188 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 186 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 166 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 160 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 128 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 168 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 156 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 140 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 145 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 143 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 147 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 142 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 141 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 139 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\f4b99545379362007cca900104454be0.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:09:29+08:00 ] 121.23.81.27 /manager/adver/adlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_goods` ORDER BY goods_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0030s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0030s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\3199aaa0c1dc112c167f316fee0dac53.php 第 380 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-18T08:09:31+08:00 ] 121.23.81.27 /manager/adver/change_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_locale_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_area`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 283 行.
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 387 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:09:32+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:09:32+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:10:16+08:00 ] 121.23.81.27 /manager/adver/adlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_goods` ORDER BY goods_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0030s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0030s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\3199aaa0c1dc112c167f316fee0dac53.php 第 376 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:10:28+08:00 ] 121.23.81.27 /manager/adver/adlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_goods` ORDER BY goods_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0030s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0040s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ae_name` FROM `wd_ad_area` WHERE `ae_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\3199aaa0c1dc112c167f316fee0dac53.php 第 376 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:10:35+08:00 ] 121.23.81.27 /manager/adver/change_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_locale_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_area`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 283 行.
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 387 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:10:36+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:10:36+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-18T08:10:38+08:00 ] 121.23.81.27 /manager/adver/change_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_locale_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wd_ad_area`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 283 行.
+NOTIC: [8] Undefined index: id F:\wwwroot\app\runtime\Cache\Manager\9254c16e86df6e6ec1bcaec0deebfb6b.php 第 387 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:10:40+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-18T08:10:40+08:00 ] 121.23.81.27 /manager/adver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

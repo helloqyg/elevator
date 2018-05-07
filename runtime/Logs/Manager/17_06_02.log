@@ -1,0 +1,745 @@
+[ 2017-06-02T08:18:58+08:00 ] 121.23.82.67 /manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:19:02+08:00 ] 121.23.82.67 /manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:19:11+08:00 ] 101.226.33.238 /manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:19:15+08:00 ] 121.23.82.67 /manager/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T08:19:23+08:00 ] 121.23.82.67 /manager/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 1 [ RunTime:0.0060s ]
+SQL: UPDATE `wd_member` SET `last_login`='1496362763',`last_ip`='121.23.82.67' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-06-02T08:19:25+08:00 ] 121.23.82.67 /manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0350s ]
+NOTIC: [8192] Non-static method Sendcloud\Stats::get_stats() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Missing argument 3 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [2] Missing argument 4 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [8] Undefined variable: option_params F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: deliveredNum F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_company` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_Sum FROM `wd_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:19:38+08:00 ] 121.23.82.67 /manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] Non-static method Sendcloud\Stats::get_stats() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Missing argument 3 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [2] Missing argument 4 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [8] Undefined variable: option_params F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: deliveredNum F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_company` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_Sum FROM `wd_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:19:48+08:00 ] 121.23.82.67 /manager/chart/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_apply` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wd_apply` ORDER BY status asc ,id desc  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 303 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 205 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 138 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 193 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 280 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 292 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 270 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 286 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 288 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 274 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 282 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 223 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 257 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 268 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 241 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 164 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 246 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 208 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 157 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 227 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 228 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 196 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 188 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 186 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 166 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 160 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 169 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 128 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 168 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 156 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 140 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 145 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 143 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 142 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 141 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 139 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page F:\wwwroot\app\runtime\Cache\Manager\f4b99545379362007cca900104454be0.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:19:50+08:00 ] 121.23.82.67 /manager/system/website.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:19:57+08:00 ] 180.153.160.24 /manager/chart/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:20:29+08:00 ] 121.23.82.67 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.1850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:20:38+08:00 ] 101.226.66.172 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:20:39+08:00 ] 121.23.82.67 /manager/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT Member.id AS id,Member.username AS username,Member.group_id AS group_id,Member.status AS status,Member.is_admin AS is_admin,Member.cid AS cid,Company.company_name AS company_name,Company.register_num AS register_num,Company.scan_part AS scan_part,Company.residence AS residence,Company.address AS address,Company.scope AS scope,Company.type AS type,Company.c_name AS c_name,Company.c_tel AS c_tel,Company.c_email AS c_email,Company.c_duties AS c_duties,Company.c_phone AS c_phone,Company.c_fax AS c_fax,Company.f_name AS f_name,Company.f_tel AS f_tel,Company.rtime AS rtime,Company.f_email AS f_email,Company.f_duties AS f_duties,Company.f_phone AS f_phone,Company.f_fax AS f_fax FROM wd_member Member  JOIN wd_company Company ON Member.cid=Company.id WHERE Company.status = 1 ORDER BY Member.id desc LIMIT 0,18   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\wwwroot\app\runtime\Cache\Manager\de0373be20d77513064c7241b5be9c71.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:20:56+08:00 ] 121.23.82.67 /manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] Non-static method Sendcloud\Stats::get_stats() should not be called statically, assuming $this from incompatible context F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Missing argument 3 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [2] Missing argument 4 for Sendcloud\Stats::get_stats(), called in F:\wwwroot\app\app\Manager\Controller\IndexController.class.php on line 17 and defined F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 28 行.
+NOTIC: [8] Undefined variable: option_params F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wwwroot\app\core\Library\Sendcloud\Stats.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: deliveredNum F:\wwwroot\app\app\Manager\Controller\IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_company` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_Sum FROM `wd_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:03+08:00 ] 121.23.82.67 /manager/news/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:06+08:00 ] 121.23.82.67 /manager/news/del.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0020s ]
+SQL: DELETE FROM `wd_news` WHERE `id` = 11 [ RunTime:0.1900s ]
+
+[ 2017-06-02T08:21:08+08:00 ] 121.23.82.67 /manager/news/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:10+08:00 ] 121.23.82.67 /manager/news/del.html?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wd_news` WHERE `id` = 12 [ RunTime:0.0200s ]
+
+[ 2017-06-02T08:21:12+08:00 ] 121.23.82.67 /manager/news/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:13+08:00 ] 121.23.82.67 /manager/news/del.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0030s ]
+SQL: DELETE FROM `wd_news` WHERE `id` = 13 [ RunTime:0.0410s ]
+
+[ 2017-06-02T08:21:15+08:00 ] 121.23.82.67 /manager/news/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:21:15+08:00 ] 101.226.89.121 /manager/news/del.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:21:20+08:00 ] 121.23.82.67 /manager/news/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.5670s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 347 行.
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.928053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.928053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:20+08:00 ] 121.23.82.67 /manager/news/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 347 行.
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:21:22+08:00 ] 121.23.82.67 /manager/news/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:21:22+08:00 ] 101.226.66.187 /manager/news/del.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:21:31+08:00 ] 101.226.33.208 /manager/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T08:22:27+08:00 ] 121.23.82.67 /manager/news/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wd_news` (`title`,`atime`,`author`,`origin`,`pic`,`keywords`,`description`,`position`,`id`,`content`) VALUES ('2018中国国际电梯展览会预订平台正式上线！','1496362947','','','','','','1','0','&lt;p&gt;2018中国国际电梯展览会预订平台正式上线！															&lt;/p&gt;&lt;p&gt;原会员账户可继续使用，如需找回账号/密码，请联系客服！&lt;/p&gt;') [ RunTime:0.0770s ]
+NOTIC: [2] Missing argument 3 for Manager\Controller\MainController::notice_info(), called in F:\wwwroot\app\app\Manager\Controller\NewsController.class.php on line 51 and defined F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 58 行.
+
+[ 2017-06-02T08:22:29+08:00 ] 121.23.82.67 /manager/news/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 347 行.
+NOTIC: [8] Undefined variable: news F:\wwwroot\app\runtime\Cache\Manager\77767d765acdcb88a29b87f0eb116b77.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T08:22:30+08:00 ] 121.23.82.67 /manager/news/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\wwwroot\app\app\Manager\Controller\MainController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_member` WHERE `is_admin` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

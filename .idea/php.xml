@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpStepFilterConfiguration">
+    <skipped_functions>
+      <skipped_function name="User\Controller\BoothController-&gt;select" />
+      <skipped_function name="Think\Controller-&gt;__destruct" />
+      <skipped_function name="Think\Hook::listen" />
+      <skipped_function name="Think\App::run" />
+      <skipped_function name="Think\Think::start" />
+      <skipped_function name="Think\Log::save" />
+      <skipped_function name="Think\Think::fatalError" />
+      <skipped_function name="User\Controller\AdverController-&gt;detail" />
+      <skipped_function name="User\Controller\AccountController-&gt;password" />
+      <skipped_function name="User\Controller\BaseController-&gt;_initialize" />
+      <skipped_function name="User\Controller\AccountController-&gt;company" />
+      <skipped_function name="M" />
+    </skipped_functions>
+    <option name="skippedFunctions">
+      <list>
+        <option value="User\Controller\BoothController-&gt;select" />
+        <option value="Think\Controller-&gt;__destruct" />
+        <option value="Think\Hook::listen" />
+        <option value="Think\App::run" />
+        <option value="Think\Think::start" />
+        <option value="Think\Log::save" />
+        <option value="Think\Think::fatalError" />
+        <option value="User\Controller\AdverController-&gt;detail" />
+        <option value="User\Controller\AccountController-&gt;password" />
+        <option value="User\Controller\BaseController-&gt;_initialize" />
+        <option value="User\Controller\AccountController-&gt;company" />
+        <option value="M" />
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+[ 2017-08-27T14:58:36+08:00 ] 127.0.0.1 /b?c1=2&c2=7290408&ns__t=1503817116043&ns_c=UTF-8&cv=3.1&c8=%E5%95%84%E6%9C%A8%E9%B8%9F-%E5%8A%A8%E6%BC%AB%E5%8A%A8%E7%94%BB-%E5%85%A8%E9%9B%86%E9%AB%98%E6%B8%85%E6%AD%A3%E7%89%88%E8%A7%86%E9%A2%91%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B-%E7%88%B1%E5%A5%87%E8%89%BA&c7=http%3A%2F%2Fwww.iqiyi.com%2Fa_19rrh81z99.html%23vfrm%3D2-4-0-1&c9=http%3A%2F%2Flist.iqiyi.com%2Fwww%2F4%2F30218-------------4-1-1-iqiyi--.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+ERR: 无法加载控制器:B
+
+[ 2017-08-27T14:58:47+08:00 ] 127.0.0.1 /b?c1=2&c2=7290408&ns__t=1503817127002&ns_c=UTF-8&cv=3.1&c8=%E5%95%84%E6%9C%A8%E9%B8%9F%E7%AC%AC1%E9%9B%86-%E5%8A%A8%E6%BC%AB-%E9%AB%98%E6%B8%85%E6%AD%A3%E7%89%88%E8%A7%86%E9%A2%91-%E7%88%B1%E5%A5%87%E8%89%BA&c7=http%3A%2F%2Fwww.iqiyi.com%2Fv_19rr7ugwio.html&c9=http%3A%2F%2Fwww.iqiyi.com%2Fa_19rrh81z99.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载控制器:B
+
+[ 2017-08-27T14:58:48+08:00 ] 127.0.0.1 /b?c1=1&c2=7290408&c3=4&c4=11&c5=&c6=&c7=http%3A%2F%2Fwww.iqiyi.com%2Fv_19rr7ugwio.html&c8=&c9=&c10=&c11=99d2e55bfeddffdb0286d3a3b7a7a64e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载控制器:B
+

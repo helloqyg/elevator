@@ -1,0 +1,1248 @@
+[ 2018-03-19T22:12:16+08:00 ] 127.0.0.1 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-03-19T22:12:16+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2018-03-19T22:12:16+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2018-03-19T22:14:32+08:00 ] 127.0.0.1 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-03-19T22:14:32+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-03-19T22:14:32+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /user/adver/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /user/adver/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-03-19T22:14:33+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-03-19T22:14:34+08:00 ] 127.0.0.1 /user/help/novice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\8a61cfdd7948497e287aa406c90f078e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-03-19T22:14:35+08:00 ] 127.0.0.1 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-03-19T22:14:35+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-03-19T22:14:35+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-03-19T22:14:36+08:00 ] 127.0.0.1 /user/help/novice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\8a61cfdd7948497e287aa406c90f078e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-03-19T22:14:38+08:00 ] 127.0.0.1 /user/help/account.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\3032152cdea8cdf540fa2b8e1e45540c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-03-19T22:14:39+08:00 ] 127.0.0.1 /user/help/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\e606a17c6ac4ac8ebeb28e0862b5b120.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-03-19T22:14:43+08:00 ] 127.0.0.1 /user/help/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\a103de27474457f52559e1809139d648.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-03-19T22:14:45+08:00 ] 127.0.0.1 /user/help/account.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\3032152cdea8cdf540fa2b8e1e45540c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-03-19T22:14:46+08:00 ] 127.0.0.1 /user/help/process.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\1e47cd7f754ddd7affd5c80ec5575454.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-03-19T22:14:47+08:00 ] 127.0.0.1 /user/help/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\fcecefe5c6f54a456cc13ae972bdc10d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-03-19T22:14:48+08:00 ] 127.0.0.1 /user/help/novice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: company_info C:\wamp\apache\htdocs\elevator\runtime\Cache\User\8a61cfdd7948497e287aa406c90f078e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-03-19T22:15:09+08:00 ] 127.0.0.1 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-03-19T22:15:09+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-03-19T22:15:09+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-03-19T22:29:59+08:00 ] 127.0.0.1 /user/adver/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-03-19T22:29:59+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2018-03-19T22:29:59+08:00 ] 127.0.0.1 /User/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2018-03-19T22:30:11+08:00 ] 127.0.0.1 /user/login/check_verify?code=qu2w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-03-19T22:30:11+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = '123' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-03-19T22:30:20+08:00 ] 127.0.0.1 /user/login/check_verify?code=qu2w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-03-19T22:30:27+08:00 ] 127.0.0.1 /user/login/check_verify?code=qu2w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-03-19T22:30:28+08:00 ] 127.0.0.1 /User/Login/verify.html?0.5195507790590077
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-03-19T22:30:34+08:00 ] 127.0.0.1 /user/login/check_verify?code=2f4w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-03-19T22:30:39+08:00 ] 127.0.0.1 /user/login/check_verify?code=2f4y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-03-19T22:30:39+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`username`,`salt`,`password`,`group_id`,`forbidden`,`is_first_login`,`is_admin` FROM `wd_member` WHERE `username` = 'nihaoma' LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `wd_member` SET `is_first_login`=is_first_login+1 WHERE `id` = 4 [ RunTime:0.0007s ]
+SQL: UPDATE `wd_member` SET `last_login`='1521469839',`last_ip`='127.0.0.1' WHERE `id` = 4 [ RunTime:0.0003s ]
+
+[ 2018-03-19T22:30:39+08:00 ] 127.0.0.1 /user/account/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0015s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wd_pay` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wd_pay` WHERE `pid` = '1358' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `status` FROM `wd_pay` WHERE `pid` = '1358' LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `wd_order` WHERE `id` = 517 [ RunTime:0.0006s ]
+SQL: DELETE FROM `wd_pay` WHERE `pid` = '1358' [ RunTime:0.0002s ]
+SQL: UPDATE `wd_booth` SET `status`='1',`uid`='0',`time`='' WHERE `id` = 1358 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0012s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 1 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_order` WHERE `ad_type` = 2 AND `uid` = 4 AND `status` <> '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: f_area_code C:\wamp\apache\htdocs\elevator\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 138 行.
+NOTIC: [8] Undefined index: c_area_code C:\wamp\apache\htdocs\elevator\runtime\Cache\User\3cf85b3e4eb891543ca7cfe925097cea.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-03-19T22:30:42+08:00 ] 127.0.0.1 /user/account/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0011s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2018-03-19T22:30:43+08:00 ] 127.0.0.1 /user/booth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `wd_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM wd_auth_group_access a INNER JOIN wd_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wd_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `wd_auth_rule` WHERE `id` IN ('2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_config` [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `wd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wd_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wd_booth` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`type`,`status`,`ad_type`,`atime`,`bid` FROM `wd_order` WHERE `ad_type` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0011s ]
+SQL: SELECT `group_id` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cid` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_company` [ RunTime:0.0013s ]
+SQL: SELECT `type` FROM `wd_company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_hall` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wd_hall` WHERE `hall_type` = 2 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2018-03-19T22:30:48+08:00 ] 127.0.0.1 /user/adver/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`price`,`images` FROM `wd_adver` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `is_special` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-03-19T22:30:49+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_area` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wd_ad_area`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wd_ad_locale_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wd_ad_goods`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0013s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2018-03-19T22:30:52+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `cat_id` = 3  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-03-19T22:30:54+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wd_ad_goods`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0009s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2018-03-19T22:30:55+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `ae_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0008s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2018-03-19T22:30:56+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wd_ad_goods`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 7 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 8 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 24 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 30 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0014s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2018-03-19T22:30:57+08:00 ] 127.0.0.1 /user/adver/ad_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `ae_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_locale_type` [ RunTime:0.0010s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 AND `ar_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wd_ad_address` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tp_name` FROM `wd_ad_locale_type` WHERE `tp_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-03-19T22:32:57+08:00 ] 127.0.0.1 /user/adver/detail/goods_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wd_ad_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wd_ad_address` [ RunTime:0.0010s ]
+SQL: SELECT a.*,g.goods_introduce,g.goods_address,g.cat_id,g.goods_number FROM wd_ad_address a left join wd_ad_goods as g on a.goods_id = g.goods_id  WHERE a.goods_id = 2 AND `ar_special` is null  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `wd_member` [ RunTime:0.0011s ]
+SQL: SELECT `username` FROM `wd_member` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2018-03-19T22:33:07+08:00 ] 127.0.0.1 /user/adver/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `wd_adver` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wd_adver` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+

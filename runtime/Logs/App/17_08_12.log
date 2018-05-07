@@ -1,0 +1,27 @@
+[ 2017-08-12T18:02:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\wamp\apache\htdocs\elevator\core\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\wamp\apache\htdocs\elevator\core\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wd_news` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `wd_news` ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+NOTIC: [2] Cannot modify header information - headers already sent C:\wamp\apache\htdocs\elevator\core\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\wamp\apache\htdocs\elevator\core\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\wamp\apache\htdocs\elevator\core\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
