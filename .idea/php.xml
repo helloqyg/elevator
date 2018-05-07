@@ -14,6 +14,8 @@
       <skipped_function name="User\Controller\BaseController-&gt;_initialize" />
       <skipped_function name="User\Controller\AccountController-&gt;company" />
       <skipped_function name="M" />
+      <skipped_function name="User\Controller\BoothController-&gt;_initialize" />
+      <skipped_function name="Think\Controller-&gt;__construct" />
     </skipped_functions>
     <option name="skippedFunctions">
       <list>
@@ -29,6 +31,8 @@
         <option value="User\Controller\BaseController-&gt;_initialize" />
         <option value="User\Controller\AccountController-&gt;company" />
         <option value="M" />
+        <option value="User\Controller\BoothController-&gt;_initialize" />
+        <option value="Think\Controller-&gt;__construct" />
       </list>
     </option>
   </component>

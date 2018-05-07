@@ -59,6 +59,7 @@ class BaseController extends \Think\Controller{
 					$booth_model->save($data);
 				}
 			}
+
 			if($value['type'] == 2 ){
 				$pay_info = M('Pay')->where(array('pid'=>$value['bid']))->find();
 					if(count($pay_info) == 0 ){
